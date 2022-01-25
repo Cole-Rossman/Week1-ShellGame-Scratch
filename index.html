@@ -24,21 +24,44 @@
         </div>
         <section class="main-section">
 
-            <div class='shell'>
-                <img src="assets/shell.png">
-                <button id="buttonOne">Select</button>
-            </div>
-
-            <div class='shell'>
-                <img src="assets/shell.png">
-                <button id="buttonTwo">Select</button>
-            </div>
-
-            <div class='shell'>
-                <img src="assets/shell.png">
-                <button id="buttonThree">Select</button>
-            </div>
+        <div class="shells">
             
+            <div id="ball1-container" class='shell'>
+                <img src="assets/shell.png">
+                <div id="ballOne" class="ball"></div>
+                <button id="button-one">Select</button>
+            </div>
+
+            <div id="ball2-container" class='shell'>
+                <img src="assets/shell.png">
+                <div id="ballTwo" class="ball"></div>
+                <button id="button-two">Select</button>
+            </div>
+
+            <div id="ball3-container" class='shell'>
+                <img src="assets/shell.png">
+                <div id="ballThree" class="ball"></div>
+                <button id="button-three">Select</button>
+            </div>
+
+        </div>
+
+        <div class="results">
+            <div>
+                Wins: 
+                <span id="wins">0</span>
+            </div>
+
+            <div>
+                Losses: 
+                <span id="losses">0</span>
+            </div>
+
+            <div>
+                Total: 
+                <span id="total">0</span>
+            </div>
+        </div>
         </section>
     </main>
     <footer>

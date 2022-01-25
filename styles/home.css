@@ -1,1 +1,22 @@
-/* add home page styles here */
+.shells {
+    display: flex;
+    flex-direction: row;
+}
+
+.results {
+    margin: 35px;
+}
+
+button {
+    text-align: center;
+    
+}
+
+.ball::after {
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    box-shadow: 5px -2px 5px rgb(0 0 0 / 60%);
+}
