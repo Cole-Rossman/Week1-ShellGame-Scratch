@@ -53,11 +53,6 @@ section {
     border: solid 2px var(--color1);
 }
 
-.shell img {
-    height: 200px;
-    width: 208px;
-}
-
 header {
     display: flex;
     justify-content: flex-end;

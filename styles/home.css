@@ -3,20 +3,40 @@
     flex-direction: row;
 }
 
+.shell {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.shell img {
+    height: 200px;
+    width: 208px;
+}
+
+.shell-lift {
+    height: 120px;
+}
+
 .results {
     margin: 35px;
 }
 
 button {
     text-align: center;
+    margin: 10px;
     
 }
 
-.ball::after {
+.reveal {
     height: 40px;
     width: 40px;
-    margin: 10px;
+    padding: 22px;
     background-color: cornflowerblue;
     border-radius: 50%;
     box-shadow: 5px -2px 5px rgb(0 0 0 / 60%);
 }
+
