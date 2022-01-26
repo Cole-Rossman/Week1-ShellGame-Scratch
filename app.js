@@ -36,9 +36,8 @@ buttonThree.addEventListener('click', () => {
 });
 
 function handleGuess(correctSpot, userGuess) {
-    ball1Image.classList.remove('reveal');
-    ball2Image.classList.remove('reveal');
-    ball3Image.classList.remove('reveal');
+    
+    removeImage();
 
     totalGuesses++;
 
@@ -54,6 +53,16 @@ function handleGuess(correctSpot, userGuess) {
         correctGuesses++;
     }
 
+    yourResults();
+}
+
+function removeImage() {
+    ball1Image.classList.remove('reveal');
+    ball2Image.classList.remove('reveal');
+    ball3Image.classList.remove('reveal');
+}
+
+function yourResults() {
     totalEl.textContent = totalGuesses;
     winsEl.textContent = correctGuesses;
     lossesEl.textContent = totalGuesses - correctGuesses;
