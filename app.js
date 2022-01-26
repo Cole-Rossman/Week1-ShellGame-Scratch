@@ -3,9 +3,6 @@ const buttonOne = document.getElementById('button-one');
 const buttonTwo = document.getElementById('button-two');
 const buttonThree = document.getElementById('button-three');
 
-const ball1Container = document.getElementById('ball1-container');
-const ball2Container = document.getElementById('ball2-container');
-const ball3Container = document.getElementById('ball3-container');
 
 const ball1Image = document.getElementById('ballOne');
 const ball2Image = document.getElementById('ballTwo');
